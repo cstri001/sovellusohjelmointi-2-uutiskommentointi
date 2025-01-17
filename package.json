@@ -1,0 +1,26 @@
+{
+  "name": "so2-ot",
+  "version": "1.0.0",
+  "description": "Tämä on repository Sovellusohjelmointi 2 -opintojakson oppimistehtävien palautukseen.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npx tsx watch index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "nodemon": "^2.0.15",
+    "prisma": "^6.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.1.0",
+    "@types/express": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
